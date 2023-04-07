@@ -1,0 +1,16 @@
+my_access_key       = "xxxxxxxx"  #Replace your own Access key
+my_secret_key       = "xxxxxxxx"  #Replace your own Secret key
+vpc_cidr            = "11.0.0.0/20"
+public_subnet_cidr  = "11.0.1.0/24"
+private_subnet_cidr = "11.0.2.0/24"
+vpc_name            = "myVPC-Terraform"
+pub_sub_name        = "Public Subnet"
+pvt_sub_name        = "Private Subnet"
+igw_name            = "myIGW"
+public_rt_name      = "public-route-table"
+sg_name             = "myPublicSG"
+sg_desc             = "Allow SSH inbound traffic"
+sg_tag              = "myPublicSG"
+instance_ami        = "ami-01cf8442c0f30b386"
+machine_type        = "t2.micro"
+kp_name             = "myserverkp1"

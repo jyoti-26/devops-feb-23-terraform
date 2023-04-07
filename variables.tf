@@ -1,0 +1,16 @@
+variable "my_access_key" {}
+variable "my_secret_key" {}
+variable "vpc_cidr" {}
+variable "public_subnet_cidr" {}
+variable "private_subnet_cidr" {}
+variable "vpc_name" {}
+variable "pub_sub_name" {}
+variable "pvt_sub_name" {}
+variable "igw_name" {}
+variable "public_rt_name" {}
+variable "sg_name" {}
+variable "sg_desc" {}
+variable "sg_tag" {}
+variable "instance_ami" {}
+variable "machine_type" {}
+variable "kp_name" {}
